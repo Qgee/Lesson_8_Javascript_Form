@@ -1,0 +1,93 @@
+
+body{
+	margin: 0;
+}
+
+
+.zero{
+	width: 100%;
+	height: 670px;
+	background-color: black;
+}
+
+.top_spacer{
+	width: 100%;
+	height: 0px;
+
+}
+
+.one{
+	width: 	625px;
+	height: 625px;
+	background-image: url(tulip.jpg);
+	background-size: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.two{
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	background-color: none;
+	margin-left: 75px;
+	padding-top: 70px;
+}
+
+.my-button{
+	width: 175px;
+	height: 50px;
+	padding: 15px 15px;
+	border: 2px solid green;
+	color: gray;
+	background-color: #eed2e7;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 40px;
+	text-align: center;
+}
+.my-button:hover{
+margin: 1px 0 0 1px;
+}
+
+span{
+	font-family: fantasy;
+	font-size: 50px;
+	text-align: center;
+	background-color: none;
+	color: white;
+}
+
+
+#userBox_style{
+	width: 400px;
+	height: 50px;
+	font-family: fantasy;
+	font-size: 45px;
+	color: blue;
+	border-radius: 5px;
+}
+
+#passwordBox_style{
+	width: 400px;
+	height: 50px;
+	font-family: fantasy;
+	font-size: 45px;
+	color: blue;
+	border-radius: 5px;
+}
+
+
+.success{
+	margin: 0 auto;
+	color: red;
+	text-align: center;
+	font-size: 50px;
+	font-family: fantasy;
+	padding-top: 300px;
+}
+
+
+
+

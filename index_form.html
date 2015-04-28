@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jQuery.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title></title>
+</head>
+<body>
+
+<div class="zero">
+	<div class="top_spacer"></div>
+	<div class="one"></div>
+	
+	<div class="two">
+		
+		<p color="white">some words</p>
+		<form>
+
+			<span>Username</span>
+			<input type="text" name="User" placeholder="    ..." id="userBox_style"><br><br><br>
+			<span>Password</span>
+			<input type="text" name="Pass" placeholder="    ..." id="passwordBox_style">
+
+		</form>
+		<br>
+		<br>
+		<br>
+		<a class="my-button" onclick="fadeOut()">Knock</a>
+	</div>	
+
+</div>
+
+
+<script>
+	function fadeOut(){
+		var Name = $("#userBox_style").val();
+		var Pass = $("#passwordBox_style").val();
+
+		if(Name==="Aaron" && Pass==="808"){	
+			window.location.href = "success.html";
+		}else{
+			$(".one").animate({opacity:0.05},3000); 
+			$(".one").animate({opacity:1},5000);
+		}
+
+	}
+</script>
+
+
+</body>
+</html>
